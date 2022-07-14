@@ -3,6 +3,7 @@ from curses import use_env
 from dataclasses import fields
 from pyexpat import model
 from re import template
+from django import forms
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.views import LoginView
@@ -12,6 +13,7 @@ from .forms import UserRegistrationForm
 from django.views.generic.edit import FormView
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
+
 # from requests import request
 # from requests import request
 

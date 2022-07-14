@@ -3,7 +3,7 @@ from django.urls import URLPattern, path, include
 from . import views
 from django.contrib.auth.views import LogoutView
 
-from .views import UserLogin , Homepage
+from .views import UserLogin , Homepage, RegisterPage
 
 urlpatterns = [
     path('', views.UserLogin.as_view(),name='login'),
